@@ -24,7 +24,7 @@ const SignupPage = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="flex flex-col items-center justify-center mt-6 gap-3"
+      className="flex flex-col items-center justify-center mt-6 gap-3 p-4"
     >
       <FormInput
         label="Full Name"

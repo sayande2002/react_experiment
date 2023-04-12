@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./styles/tailwind.css";
+import "react-toastify/dist/ReactToastify.css";
 import RenderPage from "utils/RenderPage";
 const HomePage = lazy(() => import("pages/HomePage"));
 const SignupPage = lazy(() => import("pages/SignupPage"));
